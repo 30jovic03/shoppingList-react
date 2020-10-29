@@ -1,0 +1,12 @@
+
+.item {
+  margin: 0px 10px;
+  cursor: pointer;
+  border: 0;
+}
+div input:focus{
+  outline: none;
+}
+.completed {
+  text-decoration: line-through;
+}
