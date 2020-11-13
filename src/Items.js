@@ -29,7 +29,9 @@ const Items = ({items, toggleItem, editItem, editQty, editPrice, deleteItem}) =>
           </span>
           <div className="col-1"></div>
           <input 
-          type="text" 
+          type="number"
+          step="1"
+          min="1" 
           className='item col-1'
           value={item.qty}
           onChange={(e) => {editQty(e.target.value, item.id)}}
